@@ -1,0 +1,21 @@
+//grid variables
+
+$foreground-color: blue;
+$secondary-foreground-color: black;
+$header-foreground-color: yellow;
+$background-color: brown;
+$header-background-color: lightblue;
+$selected-row-background-color: yellow;
+$row-height: 40px;
+$header-height: 50px;
+
+$theme-map-base: (
+  foreground-color: $foreground-color,
+  secondary-foreground-color: $secondary-foreground-color,
+  header-foreground-color: $header-foreground-color,
+  background-color: $background-color,
+  header-background-color: $header-background-color,
+  selected-row-background-color: $selected-row-background-color,
+  row-height: $row-height,
+  header-height: $header-height,
+);

@@ -1,0 +1,14 @@
+@import "variables";
+@import "~ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+// ag-grid.scss defines structural styles and should be imported first
+@import "~ag-grid-community/src/styles/ag-grid.scss";
+@import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin.scss";
+
+.ag-theme-base-moodys {
+  @include ag-theme-alpine($theme-map-base);
+}
+
+.ag-theme-default {
+  @include ag-theme-alpine;
+}
